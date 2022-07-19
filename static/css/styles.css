@@ -22,6 +22,10 @@ section {
     margin-top: 0px;
 }
 
+.navbar:hover {
+    background-color: #3CB371;
+    color: black;
+}
 ul {
     display: flex;
     list-style-type: none;
