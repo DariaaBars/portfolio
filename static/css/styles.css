@@ -5,11 +5,44 @@ body {
 section {
     height: 500px;
     background-color: azure;
+    border: 1px solid black;
 }
 
 .intro {
     background-color: black;
     height: 500px;
     color: white;
-    font-size: 40px;
+    font-size: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    margin-top: 0px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    height: 40px;
+    width: 825px;
+    justify-content: space-around;
+    padding: 30px;
+    font-size: 25px;
+}
+
+li {
+    text-decoration: none;
+}
+
+.cv {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.introtext {
+    margin-left: 700px;
+    margin-top: 175px;
 }
