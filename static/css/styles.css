@@ -10,34 +10,38 @@ section {
 
 .intro {
     background-color: black;
-    height: 500px;
+    height: 100vh;
     color: white;
     font-size: 20px;
 }
 
-.navbar {
+nav {
     display: flex;
     justify-content: space-around;
     float: right;
     margin-top: 0px;
 }
 
-.navbar:hover {
+nav:hover {
     background-color: #3CB371;
     color: black;
 }
 ul {
     display: flex;
     list-style-type: none;
-    height: 40px;
-    width: 825px;
+    width: 800px;
     justify-content: space-around;
-    padding: 30px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 li {
     text-decoration: none;
+}
+
+.cv {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 .introtext {
