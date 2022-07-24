@@ -1,3 +1,4 @@
+/*transform feature from here https://learningpeople.percipio.com/courses/cd39dbb3-d9c3-11e6-a5b1-0242c0a80503/videos/cd39dbba-d9c3-11e6-a5b1-0242c0a80503*/
 *{
     font-family: 'Zilla Slab', serif;
     text-decoration: none;
@@ -245,6 +246,11 @@ img {
     text-align: center;
 }
 
+.row:hover {
+    transform: translateY(-15px);
+    box-shadow: 0px 15px 30px 0px rgba(39, 38, 38, 0.7);
+}
+
 .resume h3{
     color: gray;
     font-weight: 300;
@@ -294,4 +300,9 @@ img {
     font-size: 16px;
     font-weight: 700;
     color: #3b3b4a;
+}
+
+.box:hover {
+    transform: translateY(-15px);
+    box-shadow: 0px 15px 30px 0px rgba(39, 38, 38, 0.7);
 }
