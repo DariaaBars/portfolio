@@ -68,3 +68,20 @@ section {
     padding: 120px 14%;
     color: whitesmoke;
 }
+
+.intro {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 6rem;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-left: .5rem;
+    margin-top: 200px;
+}
