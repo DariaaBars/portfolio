@@ -229,3 +229,11 @@ img {
     letter-spacing: 6px;
     text-align: center;
 }
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 4.4rem;
+}
