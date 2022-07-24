@@ -41,8 +41,19 @@ span {
     font-weight: bold;
 }
 
-nav:hover {
-    background-color: #3CB371;
+.navbar {
+    display: flex;
+}
+
+.navbar a{
+    color: whitesmoke;
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    background-color: blue;
     color: black;
 }
 ul {
@@ -51,19 +62,4 @@ ul {
     width: 800px;
     justify-content: space-around;
     font-size: 30px;
-}
-
-li {
-    text-decoration: none;
-}
-
-.cv {
-    margin-left: 20px;
-    margin-top: 20px;
-    font-size: 20px;
-}
-
-.introtext {
-    margin-left: 700px;
-    margin-top: 175px;
 }
