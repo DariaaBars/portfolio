@@ -221,3 +221,11 @@ img {
     font-size: 30px;
     letter-spacing: 3px;
 }
+
+.projects h3 {
+    color: gray;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-align: center;
+}
