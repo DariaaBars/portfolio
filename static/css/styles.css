@@ -82,6 +82,28 @@ section {
 img {
     max-width: 100%;
     height: auto;
+    width: 600px;
     margin-left: .5rem;
-    margin-top: 200px;
+    margin-top: 100px;
+}
+
+.introtext h5{
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0 0 20px;
+}
+
+.introtext h1 {
+    color: blue;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 0 20px;
+}
+
+.introtext h6 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 50px;
 }
