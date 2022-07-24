@@ -1,18 +1,15 @@
-body {
+*{
     font-family: 'Zilla Slab', serif;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-section {
-    height: 500px;
-    background-color: azure;
-    border: 1px solid black;
-}
-
-.intro {
+:root{
     background-color: black;
-    height: 100vh;
-    color: white;
-    font-size: 20px;
+    text-decoration-color: whitesmoke;
 }
 
 nav {
