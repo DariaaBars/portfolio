@@ -63,3 +63,8 @@ span {
     cursor: pointer;
     display: none;
 }
+
+section {
+    padding: 120px 14%;
+    color: whitesmoke;
+}
