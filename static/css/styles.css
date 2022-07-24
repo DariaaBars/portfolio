@@ -244,3 +244,11 @@ img {
     letter-spacing: 3px;
     text-align: center;
 }
+
+.resume {
+    color: gray;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-align: center;
+}
