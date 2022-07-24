@@ -47,19 +47,19 @@ span {
 
 .navbar a{
     color: whitesmoke;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 10px 20px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .navbar a:hover {
     background-color: blue;
     color: black;
 }
-ul {
-    display: flex;
-    list-style-type: none;
-    width: 800px;
-    justify-content: space-around;
-    font-size: 30px;
+
+#menuicon {
+    font-size: 28px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
 }
