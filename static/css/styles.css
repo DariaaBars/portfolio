@@ -47,7 +47,7 @@ span {
 
 .navbar a{
     color: whitesmoke;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     padding: 10px 20px;
     font-weight: 700;
 }
@@ -215,4 +215,9 @@ img {
     width: 35%;
     height: 100%;
     border-radius: 9px;
+}
+
+.skills li {
+    font-size: 30px;
+    letter-spacing: 3px;
 }
