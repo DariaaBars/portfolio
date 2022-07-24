@@ -260,3 +260,9 @@ img {
     align-items: center;
     margin-top: 4.4rem;
 }
+
+.box {
+    background: #080808;
+    padding: 40px 30px;
+    border-radius: 5px;  
+}
