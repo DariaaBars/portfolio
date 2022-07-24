@@ -237,3 +237,10 @@ img {
     align-items: center;
     margin-top: 4.4rem;
 }
+
+.row h4 {
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-align: center;
+}
