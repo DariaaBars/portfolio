@@ -123,3 +123,11 @@ img {
     line-height: 1.2;
     letter-spacing: 1px;
 }
+
+.skills h3{
+    color: gray;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-align: center;
+}
