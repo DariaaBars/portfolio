@@ -26,6 +26,19 @@ header {
     width: 100%;
     top: 0;
     right: 0;
+    background: black;
+    padding: 24px 14%;
+}
+
+.cv {
+    color: whitesmoke;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+span {  
+    color: blue;
+    font-weight: bold;
 }
 
 nav:hover {
