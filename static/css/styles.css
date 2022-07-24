@@ -131,3 +131,88 @@ img {
     letter-spacing: 6px;
     text-align: center;
 }
+
+#progress {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress:after {
+    content: '50%';
+    display: block;
+    background: blue;
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress1 {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress1:after {
+    content: '50%';
+    display: block;
+    background: blue;
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress2 {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress2:after {
+    content: '10%';
+    display: block;
+    background: blue;
+    width: 10%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress3 {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress3:after {
+    content: '40%';
+    display: block;
+    background: blue;
+    width: 40%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress4 {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress4:after {
+    content: '35%';
+    display: block;
+    background:blue;
+    width: 35%;
+    height: 100%;
+    border-radius: 9px;
+}
