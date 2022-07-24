@@ -252,3 +252,11 @@ img {
     letter-spacing: 6px;
     text-align: center;
 }
+
+.resumetext {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, auto));
+    grid-gap: 3rem;
+    align-items: center;
+    margin-top: 4.4rem;
+}
