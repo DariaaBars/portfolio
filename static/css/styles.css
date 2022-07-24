@@ -9,14 +9,23 @@
 
 :root{
     background-color: black;
-    text-decoration-color: whitesmoke;
+    color: whitesmoke;
 }
 
-nav {
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+header {
+    position: fixed;
     display: flex;
-    justify-content: space-around;
-    float: right;
-    margin-top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    right: 0;
 }
 
 nav:hover {
