@@ -107,3 +107,19 @@ img {
     font-weight: 500;
     margin-bottom: 50px;
 }
+
+.abouttext h3 {
+    color: gray;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-align: center;
+
+}
+.abouttext h2 {
+    text-align: center;
+    font-weight: 100;
+    padding: 50px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
