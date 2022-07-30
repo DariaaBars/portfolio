@@ -51,6 +51,7 @@ span {
     font-size: 1.6rem;
     padding: 10px 20px;
     font-weight: 700;
+    border-radius: 12px;
 }
 
 .navbar a:hover {
