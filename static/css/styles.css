@@ -435,3 +435,8 @@ img {
     font-weight: 500;
 }
 
+.bx bxl-github {
+    min-width: 100px;
+    min-height: 100px;
+    size: large;
+}
