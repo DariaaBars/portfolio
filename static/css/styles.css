@@ -340,9 +340,26 @@ img {
     flex-direction: column;
 }
 
-.box {
+.container .contactinfo .box {
     position: relative;
     padding: 20px 0;
     display: flex;
 
+}
+
+.icon {
+    min-width: 60px;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.container .contactinfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: whitesmoke;
+    flex-direction: column;
 }
