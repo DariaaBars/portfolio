@@ -362,4 +362,71 @@ img {
     font-size: 16px;
     color: whitesmoke;
     flex-direction: column;
+    font-weight: 300;
+}
+
+.container h4 {
+    font-weight: 700;
+    color: blue;
+}
+
+.contactform {
+    width: 40%;
+    padding: 40px;
+    background: whitesmoke;
+}
+
+.contactform h2 {
+    font-size: 30px;
+    color: blue;
+    font-weight: 600;
+}
+
+.contactform .inputbox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactform .inputbox input,
+.contactform .inputbox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactform .inputbox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #3b3b4a;
+}
+
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span  {
+    color: red;
+    font-size: 12px;
+    transform: translateY(-20px) ;
+}
+
+.contactform .inputbox input[type="submit"] {
+    width: 100px;
+    background: #333;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
 }
