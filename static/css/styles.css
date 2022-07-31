@@ -451,4 +451,8 @@ img {
 .footerdate {
     text-align: center;
     color: #3b3b4a;
+    padding: 30px;
+    background:#0b0b13;
+    margin-top: 3rem;
+    line-height: 1.8rem;;
 }
