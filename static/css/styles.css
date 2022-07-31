@@ -1,4 +1,12 @@
-/*transform feature from here https://learningpeople.percipio.com/courses/cd39dbb3-d9c3-11e6-a5b1-0242c0a80503/videos/cd39dbba-d9c3-11e6-a5b1-0242c0a80503*/
+/*transform feature from here https://learningpeople.percipio.com/courses/cd39dbb3-d9c3-11e6-a5b1-0242c0a80503/videos/cd39dbba-d9c3-11e6-a5b1-0242c0a80503
+inspiration and coding from here:
+- https://www.w3schools.com/
+- https://learningpeople.percipio.com/
+- https://www.youtube.com/watch?v=xV7S8BhIeBo
+- https://www.youtube.com/watch?v=-D6oTPA4vXc
+- https://www.youtube.com/watch?v=_xkSvufmjEs
+- https://www.youtube.com/watch?v=kMT54MPz9oE
+*/
 * {
     font-family: 'Zilla Slab', serif;
     text-decoration: none;
@@ -58,6 +66,7 @@ span {
 .navbar a:hover {
     background-color: blue;
     color: black;
+    transition: .3s;
 }
 
 #menuicon {
@@ -477,7 +486,7 @@ img {
     }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 768px) {
     header {
         padding: 18px 3%;
     }
