@@ -409,6 +409,7 @@ section {
     position: relative;
     width: 100%;
     margin-top: 10px;
+    height: 83px;
 }
 
 .sendbtn:hover {
@@ -484,7 +485,7 @@ section {
     line-height: 1.8rem;;
 }
 
-@media (max-width: 1430px) {
+@media (max-width: 1280px) {
     header {
         padding: 25px 3%;
     }
@@ -493,7 +494,7 @@ section {
     }
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1024px) {
     h5, h3, h6, p {
         font: 30px;
     }
@@ -503,7 +504,7 @@ section {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     header {
         padding: 18px 3%;
     }
@@ -533,7 +534,7 @@ section {
     }
 }
 
-@media (max-width: 795px) {
+@media (max-width: 480px) {
     .intro {
         grid-template-columns: 1fr;
         grid-gap: 2rem;
@@ -546,8 +547,9 @@ section {
     }
     img {
         max-width: 100%;
-        width: 490px;
+        width: 50%;
         height: auto;
+        padding: 0;
     }
     .about {
         grid-template-columns: 1fr;
